@@ -8,25 +8,23 @@ $Cobaltblue: hsl(234, 85%, 45%);
     margin: 0;
     box-sizing: border-box;
 }
+    html,body{
+    max-width:100% !important;
+    overflow-x: hidden !important;
+    }
 body{
    background-color:whitesmoke;
    font-size: 10px;
    font-family: Hanken Grotesk;
 }
-/*.left-child{
-    float: left;
-    width:20rem;
-    border-radius: 1rem;
-}*/
 .main-section{
-   /* background:linear-gradient( hsl(252, 100%, 67%),hsl(241, 81%, 54%));*/
    background-color:white;
     height:100vh;
-    width:100vw;
+    width:auto;
    .hero-section{
       background-color:white;
       height:100%;
-      //width:42rem;
+      width:auto;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -37,7 +35,7 @@ body{
          width:21rem;
          border-radius: 1rem;
         .result{
-            font-size: 1rem;
+            font-size: 1.2rem;
             color:white;
             padding:1rem;
             text-align: center;
@@ -54,7 +52,7 @@ body{
           .count{
             font-size: 1.5rem;
             color:white;
-        //    margin-top:-0.7rem;
+       
         text-align: center;
          }
          .break{
