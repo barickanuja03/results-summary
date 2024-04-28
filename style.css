@@ -1,0 +1,185 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  font-size: 10px;
+  font-family: Hanken Grotesk;
+}
+
+/*.left-child{
+    float: left;
+    width:20rem;
+    border-radius: 1rem;
+}*/
+.main-section {
+  /* background:linear-gradient( hsl(252, 100%, 67%),hsl(241, 81%, 54%));*/
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+}
+.main-section .hero-section {
+  background-color: white;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+}
+.main-section .hero-section .left-child {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  float: left;
+  width: 21rem;
+  border-radius: 1rem;
+}
+.main-section .hero-section .left-child .result {
+  font-size: 1rem;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 0.9rem;
+}
+.main-section .hero-section .left-child .result-count {
+  border-radius: 50%;
+  width: 7rem;
+  height: 7rem;
+  background: linear-gradient(hsl(256, 72%, 46%), hsla(241, 72%, 46%, 0));
+  padding: 2rem;
+  margin-left: 5.9rem;
+  margin-top: 1.2rem;
+}
+.main-section .hero-section .left-child .result-count .count {
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+}
+.main-section .hero-section .left-child .result-count .break {
+  color: white;
+  font-size: 0.5rem;
+  text-align: center;
+}
+.main-section .hero-section .left-child .great {
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
+.main-section .hero-section .left-child p {
+  font-size: 0.9rem;
+  color: white;
+  padding-bottom: 1rem;
+}
+.main-section .hero-section .right-child {
+  background-color: white;
+  color: white;
+  /*  padding:1rem;*/
+  width: 20rem;
+  border-radius: 1rem;
+}
+.main-section .hero-section .right-child h3 {
+  color: hsl(234, 85%, 45%);
+  margin: 1rem;
+}
+.main-section .hero-section .right-child .summery-box {
+  border: 1px solid white;
+  padding: 0.5rem;
+  background-color: hsl(0, 45%, 92%);
+  border-radius: 1rem;
+}
+.main-section .hero-section .right-child .summery-box .summery-text {
+  font-size: 1.2rem;
+  color: hsl(0, 100%, 67%);
+}
+.main-section .hero-section .right-child .summery-box .marks {
+  font-size: 1.2rem;
+  color: hsl(234, 85%, 45%);
+  margin-left: 6rem;
+}
+.main-section .hero-section .right-child .summery-box .out-of {
+  font-size: 1.1rem;
+  color: hsl(234, 85%, 45%);
+  opacity: 0.5;
+}
+.main-section .hero-section .right-child .summery-box1 {
+  border: 1px solid white;
+  padding: 0.5rem;
+  background-color: rgb(246, 246, 232);
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+.main-section .hero-section .right-child .summery-box1 .summery-text1 {
+  color: hsl(39, 100%, 56%);
+  font-size: 1.2rem;
+  margin-left: 0.3rem;
+}
+.main-section .hero-section .right-child .summery-box1 .marks1 {
+  font-size: 1.2rem;
+  color: hsl(234, 85%, 45%);
+  margin-left: 6rem;
+}
+.main-section .hero-section .right-child .summery-box1 .out-of1 {
+  font-size: 1.1rem;
+  color: hsl(234, 85%, 45%);
+  opacity: 0.5;
+}
+.main-section .hero-section .right-child .summery-box2 {
+  border: 1px solid white;
+  padding: 0.5rem;
+  background-color: hsl(165, 77%, 90%);
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+.main-section .hero-section .right-child .summery-box2 .summery-text2 {
+  color: hsl(166, 100%, 37%);
+  font-size: 1.2rem;
+  margin-left: 0.3rem;
+}
+.main-section .hero-section .right-child .summery-box2 .marks2 {
+  font-size: 1.2rem;
+  color: hsl(234, 85%, 45%);
+  margin-left: 7rem;
+}
+.main-section .hero-section .right-child .summery-box2 .out-of2 {
+  font-size: 1.1rem;
+  color: hsl(234, 85%, 45%);
+  opacity: 0.5;
+}
+.main-section .hero-section .right-child .summery-box3 {
+  border: 1px solid white;
+  padding: 0.5rem;
+  background-color: hsl(234, 65%, 88%);
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+.main-section .hero-section .right-child .summery-box3 .summery-text3 {
+  color: hsl(234, 85%, 45%);
+  font-size: 1.2rem;
+  margin-left: 0.3rem;
+}
+.main-section .hero-section .right-child .summery-box3 .marks3 {
+  font-size: 1.2rem;
+  color: hsl(234, 85%, 45%);
+  margin-left: 7rem;
+}
+.main-section .hero-section .right-child .summery-box3 .out-of3 {
+  font-size: 1.1rem;
+  color: hsl(234, 85%, 45%);
+  opacity: 0.5;
+}
+.main-section .hero-section .right-child .btn {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  padding: 0.6rem 6rem;
+  margin: 1rem;
+  border-radius: 3rem;
+  color: white;
+}
+.main-section .hero-section .right-child .btn:hover {
+  background-color: hsl(234, 85%, 45%);
+}
+
+a:hover {
+  background-color: hsl(234, 85%, 45%);
+}/*# sourceMappingURL=style.css.map */

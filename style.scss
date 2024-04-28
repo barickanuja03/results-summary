@@ -1,0 +1,190 @@
+$Lightred: hsl(0, 100%, 67%);
+$Orangeyyellow: hsl(39, 100%, 56%);
+$Greenteal: hsl(166, 100%, 37%);
+$Cobaltblue: hsl(234, 85%, 45%);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color:whitesmoke;
+   font-size: 10px;
+   font-family: Hanken Grotesk;
+}
+/*.left-child{
+    float: left;
+    width:20rem;
+    border-radius: 1rem;
+}*/
+.main-section{
+   /* background:linear-gradient( hsl(252, 100%, 67%),hsl(241, 81%, 54%));*/
+   background-color:white;
+    height:100vh;
+    width:100vw;
+   .hero-section{
+      background-color:white;
+      height:100%;
+      //width:42rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top:50%;
+     .left-child{
+         background:linear-gradient( hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+         float:left;
+         width:21rem;
+         border-radius: 1rem;
+        .result{
+            font-size: 1rem;
+            color:white;
+            padding:1rem;
+            text-align: center;
+            margin-top: .9rem;
+        }
+        .result-count{
+            border-radius: 50%;
+            width:7rem;
+            height:7rem;
+            background:linear-gradient( hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+            padding:2rem;
+            margin-left:5.9rem;
+            margin-top: 1.2rem;
+          .count{
+            font-size: 1.5rem;
+            color:white;
+        //    margin-top:-0.7rem;
+        text-align: center;
+         }
+         .break{
+            color:white;
+            font-size: .5rem;
+            text-align: center;
+         }
+        }
+        .great{
+            color:white;
+            font-size:1rem;
+            text-align: center;
+            padding: 1rem;
+        }
+        p{
+            font-size: .9rem;
+            color:white;
+            padding-bottom:1rem;
+        }
+     }
+     .right-child{
+        background-color: white;
+        color:white;
+      /*  padding:1rem;*/
+        width:20rem;
+        border-radius: 1rem;
+        h3{
+             color:$Cobaltblue;
+             margin:1rem;
+         }
+       .summery-box{
+             border:1px solid white;
+             padding: .5rem;
+             background-color: hsl(0, 45%, 92%);
+             border-radius: 1rem;
+            //   margin: 1rem;
+        .summery-text{
+          font-size:1.2rem;
+          color:$Lightred;
+    }
+      .marks{
+       font-size: 1.2rem;
+       color:$Cobaltblue;
+       margin-left:6rem;
+      }
+      .out-of{
+       font-size: 1.1rem;
+         color: $Cobaltblue;
+         opacity: .5;
+        }
+         }
+   .summery-box1{
+       border:1px solid white;
+       padding: .5rem;
+       background-color:rgb(246, 246, 232);
+       margin-top: 1rem;
+       border-radius: 1rem;
+   .summery-text1{
+       color:$Orangeyyellow;
+       font-size:1.2rem;
+       margin-left:.3rem;
+   }
+   .marks1{
+       font-size: 1.2rem;
+       color:$Cobaltblue;
+       margin-left:6rem;
+      }
+      .out-of1{
+       font-size: 1.1rem;
+       color: $Cobaltblue;
+       opacity: .5;
+   }
+   }
+   .summery-box2{
+    border:1px solid white;
+    padding: .5rem;
+    background-color:hsl(165, 77%, 90%);
+    margin-top: 1rem;
+    border-radius: 1rem;
+.summery-text2{
+    color:$Greenteal;
+    font-size:1.2rem;
+    margin-left:.3rem;
+}
+.marks2{
+    font-size: 1.2rem;
+    color:$Cobaltblue;
+    margin-left:7rem;
+   }
+   .out-of2{
+    font-size: 1.1rem;
+    color: $Cobaltblue;
+    opacity: .5;
+}
+}
+.summery-box3{
+    border:1px solid white;
+    padding: .5rem;
+    background-color:hsl(234, 65%, 88%);
+    margin-top: 1rem;
+    border-radius: 1rem;
+.summery-text3{
+    color:$Cobaltblue;
+    font-size:1.2rem;
+    margin-left:.3rem;
+}
+.marks3{
+    font-size: 1.2rem;
+    color:$Cobaltblue;
+    margin-left:7rem;
+   }
+   .out-of3{
+    font-size: 1.1rem;
+    color: $Cobaltblue;
+    opacity: .5;
+}
+}
+.btn{
+    background:linear-gradient( hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    padding:0.6rem 6rem;
+    margin:1rem;
+    border-radius: 3rem;
+    color:white;
+    &:hover{
+        background-color: $Cobaltblue;
+    }
+}
+}
+}
+}
+a:hover{
+    background-color: $Cobaltblue;
+}
