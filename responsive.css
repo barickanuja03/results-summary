@@ -1,7 +1,21 @@
-@media(max-width:px)
+@media(max-width:655px)
 {
     html,body{
     max-width:100% !important;
     overflow-x: hidden !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .main-section{
+   /* height: auto;*/
+  /* max-width: 100%;*/
+   /* max-width:100% !important;
+   overflow-x: hidden !important;
+   margin: 0;
+   padding: 0; */
+    }
+   .hero-section>.left-child{
+        max-width: 100%;
     }
 }

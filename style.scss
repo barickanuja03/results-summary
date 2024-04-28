@@ -20,19 +20,23 @@ body{
 .main-section{
    background-color:white;
     height:100vh;
-    width:auto;
+ /*   width:auto;*/
    .hero-section{
       background-color:white;
-      height:100%;
-      width:auto;
+     height:100%;
+     width: auto;
+     /*margin-top:8rem;*/
+    //  width:auto;
       display: flex;
       justify-content: center;
       align-items: center;
-      top:50%;
      .left-child{
          background:linear-gradient( hsl(252, 100%, 67%),hsl(241, 81%, 54%));
          float:left;
          width:21rem;
+     //   width: 336px;
+       // height:346px;
+      //padding-left: 3rem;
          border-radius: 1rem;
         .result{
             font-size: 1.2rem;
@@ -51,9 +55,8 @@ body{
             margin-top: 1.2rem;
           .count{
             font-size: 1.5rem;
-            color:white;
-       
-        text-align: center;
+            color:white; 
+            text-align: center;
          }
          .break{
             color:white;
@@ -76,7 +79,6 @@ body{
      .right-child{
         background-color: white;
         color:white;
-      /*  padding:1rem;*/
         width:20rem;
         border-radius: 1rem;
         h3{
