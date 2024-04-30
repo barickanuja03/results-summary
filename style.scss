@@ -10,7 +10,6 @@ $Cobaltblue: hsl(234, 85%, 45%);
 }
     html,body{
     max-width:100% !important;
-    overflow-x: hidden !important;
     }
 body{
    background-color:whitesmoke;
@@ -20,23 +19,18 @@ body{
 .main-section{
    background-color:white;
     height:100vh;
- /*   width:auto;*/
+    width: 100% !important;
    .hero-section{
-      background-color:white;
-     height:100%;
-     width: auto;
-     /*margin-top:8rem;*/
-    //  width:auto;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+     background-color:white;
+    height:100%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
      .left-child{
          background:linear-gradient( hsl(252, 100%, 67%),hsl(241, 81%, 54%));
          float:left;
          width:21rem;
-     //   width: 336px;
-       // height:346px;
-      //padding-left: 3rem;
          border-radius: 1rem;
         .result{
             font-size: 1.2rem;
@@ -90,7 +84,6 @@ body{
              padding: .5rem;
              background-color: hsl(0, 45%, 92%);
              border-radius: 1rem;
-            //   margin: 1rem;
         .summery-text{
           font-size:1.2rem;
           color:$Lightred;

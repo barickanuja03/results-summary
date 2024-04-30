@@ -1,21 +1,11 @@
 @media(max-width:655px)
 {
-    html,body{
-    max-width:100% !important;
-    overflow-x: hidden !important;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    .left-child{
+        width:100% !important;
+        margin-top:0px !important;
     }
-    .main-section{
-   /* height: auto;*/
-  /* max-width: 100%;*/
-   /* max-width:100% !important;
-   overflow-x: hidden !important;
-   margin: 0;
-   padding: 0; */
-    }
-   .left-child{
-        max-width: 100%;
+    .result-count{
+        padding:3rem;
+        margin-left:19px;
     }
 }

@@ -6,7 +6,6 @@
 
 html, body {
   max-width: 100% !important;
-  overflow-x: hidden !important;
 }
 
 body {
@@ -18,13 +17,12 @@ body {
 .main-section {
   background-color: white;
   height: 100vh;
-  /*   width:auto;*/
+  width: 100% !important;
 }
 .main-section .hero-section {
   background-color: white;
   height: 100%;
   width: auto;
-  /*margin-top:8rem;*/
   display: flex;
   justify-content: center;
   align-items: center;
